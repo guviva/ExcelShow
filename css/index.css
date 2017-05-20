@@ -1,0 +1,35 @@
+body{
+  font-family: "Microsoft YaHei";
+}
+
+.container {
+    width: 1170px;
+}
+
+#drop {
+  border: 2px dashed #bbb;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 25px;
+  text-align: center;
+  font: 20pt bold ,"Microsoft YaHei";
+  color: #bbb
+}
+
+#testExcel{
+  height: 300px;
+}
+.chartsContainer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chart{
+  width: 32%;
+  margin:10px;
+  height: 300px;
+  border: 1px solid #ccc;
+}
