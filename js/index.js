@@ -24,7 +24,7 @@ function process_wb(wb) {
   if (typeof console !== 'undefined') console.log("output", new Date());
 }
 
-var drop = document.getElementById('drop');
+var testExcel = document.getElementById('testExcel');
 
 function handleDrop(e) {
   e.stopPropagation();
@@ -54,10 +54,10 @@ function handleDragover(e) {
   e.dataTransfer.dropEffect = 'copy';
 }
 
-if (drop.addEventListener) {
-  drop.addEventListener('dragenter', handleDragover, false);
-  drop.addEventListener('dragover', handleDragover, false);
-  drop.addEventListener('drop', handleDrop, false);
+if (testExcel.addEventListener) {
+  testExcel.addEventListener('dragenter', handleDragover, false);
+  testExcel.addEventListener('dragover', handleDragover, false);
+  testExcel.addEventListener('drop', handleDrop, false);
 }
 
 
